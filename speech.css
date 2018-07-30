@@ -34,18 +34,20 @@ margin-top: 0px;
     margin: auto;
     top: 20px; left: 0; bottom: 0; right: 20px;
 	font-family: 'Dancing Script', cursive;
-	top: 30%;
     font-size: 6rem;
     text-align: center;
 }
 
 .landingText2 {
-    background-color: black;
+    background-color: #67A6A6;
     color: white;
-    opacity: .7;
-    margin-left: 30%;
-    margin-right:30%;
+    opacity: .6;
+    padding: 20px;
+    margin-top: 20%;
+    position: absolute;
+
 }
+   
 
 .aboutMeText {
     font-family: 'Dancing Script', cursive;
@@ -173,13 +175,13 @@ margin-top: 0px;
 }
 
 #contact {
-            background: url(./images/wedding.jpeg);
+            background: url(./images/celebration.jpg);
             font-family: 'Cormorant Garamond', serif;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-            color: #67A6A6;
+            color: white;
             width: 100%;
             height: auto;
 }
@@ -208,15 +210,22 @@ margin-top: 0px;
 }
 
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 800px) {
     .landingText, .banner {
-        font-size: 2rem;
-        margin: auto;
-        top: 40%;
+        font-size: 1.8rem;
     }
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 768px) {
+    .landingText2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .ourServices, .aboutMeText {
         font-size: 1.5rem;
         padding: 0px;
