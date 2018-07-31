@@ -118,8 +118,11 @@ margin-top: 0px;
 .entry-media img {
     margin-top: 10px;
     border-radius: 10px;
-    width: 100%;
-    /*max-height: 188px;*/
+    /*width: 100%;*/
+}
+
+.video-media {
+    margin: auto;
 }
 
 .entry-body {
@@ -208,7 +211,7 @@ margin-top: 0px;
     font-family: 'Cormorant Garamond', serif;
     font-size: 2rem;
     line-height: 2.0;
-    -webkit-box-shadow: 0px 1px 12px 0px rgba(128,128,128,1);
+   
 }
 
 .PoemTitle {
@@ -219,9 +222,9 @@ margin-top: 0px;
     padding: 10px;
 }
 
-.panelListItem  {
-     -webkit-box-shadow: 0px 1px 12px 0px rgba(128,128,128,1);
-}
+/*.panelListItem  {*/
+/*     -webkit-box-shadow: 0px 1px 12px 0px rgba(128,128,128,1);*/
+/*}*/
 
 .blockquote-box1 {
     background-image: url(./images/gallery1.jpeg);
