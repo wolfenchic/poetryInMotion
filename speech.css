@@ -186,11 +186,20 @@ margin-top: 0px;
             color: white;
             width: 100%;
             height: auto;
+            padding-bottom: 20px;
 }
  
 .formText {
      font-size: 2rem;
- }          
+ }   
+ 
+.contactButton {
+    background-color: #67A6A6;
+    border-color: #67A6A6;
+    color: white;
+    font-size: 2rem;
+    
+}
 
 /*articlepage*/
 
@@ -225,6 +234,46 @@ margin-top: 0px;
 
 .PoemTitle1 {
     color: white;
+}
+
+.testimonial {
+    font-size: 1.7rem;
+    color: #BA7F7E;
+}
+
+#Testimonials {
+    background-color: white;
+    color: #4a4a4f;
+     font-family: 'Cormorant Garamond', serif;
+    
+}
+
+.testimonialHeading {
+    color: #67A6A6;
+    font-family: 'Merienda', cursive;
+}
+
+.carouselRow{
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   
+    
+}
+
+.carousel2 {
+    font-size: 2rem;
+    color: #4a4a4f;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 10px;
+   
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
+   color: #67A6A6;
+   margin-left: 20px;
 }
 
 
@@ -271,3 +320,17 @@ margin-top: 0px;
         margin-left: 20px;
     }
     }
+    
+    @media only screen and (max-width: 780px) { 
+    .articleContent, .listImage  {
+    padding: 5px;
+       
+    }
+    }
+    
+     @media only screen and (max-width: 780px) {
+    .blockquote-box1 {
+        margin-right: 5px;
+    }
+    }
+    
