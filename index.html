@@ -300,17 +300,64 @@
 
   <section id="contact" class="p-5 bg-dark">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 col-xs-10 col-sm-offset-3 col-xs-offset-1 text-center">
-                    <h1 class="formHeader">Would you like help preparing a speech?</h1>
+            <div class="row text-center">
+             <h1 class="formHeader">Would you like help preparing a speech?</h1>
+             </div>
+             
+            <div class="row text-center">
+                <div class="priceMenu col-sm-4 col-xs-10 col-lg-4 col-sm-offset-1 col-xs-offset-1">
+                  <h1 class="formHeader">Your Options</h1>
+                    <p class="formText">Choose from an option below to order your own bespoke poem!</p>
+                   
+                     <div class="card priceCard">
+                      <h3>The Test</h3>
+                      <p>4-6 verses</p>
+                      <p>€0.01</p>
+                      <a href="https://mysplink.com/testpoetry/shop/?item=472" class="btn btn-default purchaseButton">Purchase</a>
+                      <br>
+                  </div>
+                  
+                  <div class="card priceCard">
+                      <h3>The Rhyme</h3>
+                      <p>4-6 verses</p>
+                      <p>€100</p>
+                      <a href="https://mysplink.com/testpoetry/shop/?item=469" class="btn btn-default purchaseButton">Purchase</a>
+                      <br>
+                  </div>
+                  
+                  <br>
+                  
+                   <div class="card priceCard">
+                      <h3>The Poem</h3>
+                      <p>8-12 verses</p>
+                      <p>€125</p>
+                      <a href="https://mysplink.com/testpoetry/shop/?item=470" class="btn btn-default purchaseButton">Purchase</a>
+                      <br>
+                  </div>
+                  
+                   <br>
+                  
+                   <div class="card priceCard">
+                      <h3>The Speech</h3>
+                      <p>Up to 20 verses</p>
+                      <p>€150</p>
+                      <a href="https://mysplink.com/testpoetry/shop/?item=471" class="btn btn-default purchaseButton">Purchase</a>
+                      <br>
+                  </div>
+                  
+                  
+                </div>
+            
+                <div class="contactFormSection col-sm-6 col-lg-6 col-xs-10  col-xs-offset-2 text-center">
+                    <h1 class="formHeader">Contact Me</h1>
+                    <p class="formText">If you're not exactly sure of what you would like drop me a line</p>
                     <br>
-                    <p class="formText">Get in touch</p>
-                    <br>
-                    <form class="myForm" onsubmit="openModal()" action="https://formspree.io/john.walsh@sapgroup.com" method="POST">
+                    <form class="myForm" onsubmit="openModal()" action="https://formspree.io/johnwalshpoetry@outlook.com" method="POST">
                         <div class="form-group"><input class="form-control" name="email" required="" type="email" placeholder="Your email *"></div>
                         <div class="form-group"><input class="form-control mt-3" name="name" type="text" placeholder="Your name"></div>
                         <div class="form-group"><input class="form-control mt-3" name="telephone" type="tel" placeholder="Your telephone"></div>
                         <div class="form-group"><input class="form-control mt-3" name="information" type="information" placeholder="How did you find me"></div>
+                        <div class="form-group"><input class="form-control mt-3" name="type" type="text" placeholder="Type of poem, e.g. Birthday, Best Man Speech"></div>
                         <div class="form-group"><textarea class="form-control" name="message" rows="12" placeholder="Your message"></textarea></div>
                         <button type="submit" value="send" class="btn btn-primary contactButton">Submit</button>
                     </form>
