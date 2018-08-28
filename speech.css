@@ -41,6 +41,7 @@ margin-top: 0px;
 	font-family: 'Merienda', cursive;
     font-size: 5rem;
     text-align: center;
+     margin-left: 5%;
 }
 
 .landingText2 {
@@ -52,8 +53,13 @@ margin-top: 0px;
     margin-top: 20%;
     position: absolute;
     border-radius: 70px;
+    margin-left: 5%;
 }
-   
+
+.SocialFooter {
+     font-family: 'Cormorant Garamond', serif;
+    
+}
 
 .aboutMeText {
    font-family: 'Merienda', cursive;
